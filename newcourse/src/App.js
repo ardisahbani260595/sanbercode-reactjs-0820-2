@@ -1,38 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import DataBuah from './tugas-10/Table';
+import Index from './tugas-09/Index';
 
 function App() {
   return (
-    <div class="container">
-      <form action="">
-        <center>
-          <h1>Form Pembelian Buah</h1>
-        </center>
-        <table>
-          <tr>
-            <td><label for="username">Nama Pelanggan</label></td>
-            <td><input type="text" id="username"></input></td>
-          </tr>
-          <tr>
-            <td><label for="checkbox"> Daftar Item</label></td>
-            <td>
-              <p><input type='checkbox' name='checkbox1' value='semangka' />Semangka</p>
-              <p><input type='checkbox' name='checkbox2' value='nanas' />Nanas</p>
-              <p><input type='checkbox' name='checkbox3' value='jeruk' />Jeruk</p>
-              <p><input type='checkbox' name='checkbox4' value='anggur' />Anggur</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <button type="submit">Kirim!</button>
-            </td>
-          </tr>
-
-        </table>
-      </form>
+    <div>
+      <Index />
+      <DataBuah />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, { Component } from 'react';
+// import Form from './tugas-09/Index'
+// import Table from './tugas-10/Table'
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <div>
+
+//         <Form />
+
+
+//         <Table />
+
+//       </div>
+//     )
+//   }
+// }
+
+
+// export default App;

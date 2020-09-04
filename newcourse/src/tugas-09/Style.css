@@ -1,0 +1,26 @@
+.container {
+    width: 600px;
+    height: 350px;
+    border: solid #000000;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .index {
+    padding-left: 20px;
+  }
+  
+  .index tr label {
+    font-weight: bold;
+  }
+  
+  button {
+    border-radius: 30px;
+  }
+  
+  .index td input {
+    margin-left: 30px;
+  }
+  
+  
