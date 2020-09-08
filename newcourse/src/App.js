@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import Timer from './tugas-11/Timer'
-import Clock from './tugas-11/Clock'
+import List from './tugas-12/List';
+// import Timer from './tugas-11/Timer'
+// import Clock from './tugas-11/Clock'
 // import DataBuah from './tugas-10/Table';
 // import Index from './tugas-09/Index';
 
 function App() {
   return (
-    <div>
-      <Timer />
-      <Clock />
-    </div>
+    <center>
+      <List />
+    </center>
   );
 }
 
