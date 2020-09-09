@@ -1,10 +1,25 @@
-td, th {
+h1{
+    text-align: center;
+  }
+  
+  th, td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
-}
-
-table {
+  }
+  
+  table {
     border-collapse: collapse;
-    width: 100%;
-}
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  form{
+    text-align: center;
+  }
+  
+  label{
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  

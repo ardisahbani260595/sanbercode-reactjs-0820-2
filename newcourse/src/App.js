@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import List from './tugas-12/List';
+import Hook from './tugas-13/Hook';
+// import DaftarBuah from './tugas-12/List';
 // import Timer from './tugas-11/Timer'
 // import Clock from './tugas-11/Clock'
 // import DataBuah from './tugas-10/Table';
@@ -9,7 +10,7 @@ import List from './tugas-12/List';
 function App() {
   return (
     <center>
-      <List />
+      <Hook />
     </center>
   );
 }
