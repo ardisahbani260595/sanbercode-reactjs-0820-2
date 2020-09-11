@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import DaftarBuah from './tugas-14/Main';
+import Navbar from './tugas-15/Navbar';
+// import DaftarBuah from './tugas-14/Main';
 // import DaftarBuah from './tugas-12/List';
 // import Timer from './tugas-11/Timer'
 // import Clock from './tugas-11/Clock'
@@ -10,7 +11,7 @@ import DaftarBuah from './tugas-14/Main';
 function App() {
   return (
     <center>
-      <DaftarBuah />
+      <Navbar />
     </center>
   );
 }
