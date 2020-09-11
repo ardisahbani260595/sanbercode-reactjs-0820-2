@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import DaftarBuah from './tugas-14/Contex';
+import DaftarBuah from './tugas-14/Main';
 // import DaftarBuah from './tugas-12/List';
 // import Timer from './tugas-11/Timer'
 // import Clock from './tugas-11/Clock'
